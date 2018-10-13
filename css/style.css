@@ -1,0 +1,124 @@
+body {
+    min-width: 1440px;
+    margin: 0;
+    padding: 0;
+    font-family: "Source Serif Pro", sans-serif;
+    font-size: 18px;
+    color: #212021;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    height: 780px;
+    background-color: #f8f8f8;
+    position: relative;
+    z-index: 1;
+}
+
+.header .container {
+    position: relative;
+}
+
+.header::after {
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -125px;
+    z-index: -1;
+    background: url(../img/header_bg.jpg) 0 0 no-repeat;
+}
+
+.header-top-logo {
+    margin: 0;
+    margin-left: -125px;
+    padding: 0;
+    float: left;
+    width: 250px;
+    height: 70px;
+    background-color: #89b26f;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+.main-menu {
+    float: left;
+    margin-left: 85px;
+}
+
+.menu-wrapper {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu__item {
+    float: left;
+    margin: 20px 88px 0 0;
+    height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #949494;
+}
+
+.header-top-tel {
+    margin: 20px 0 0 67px;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.header-bottom {    
+    margin-top: 227px;
+    margin-left: 29px;
+}
+
+.name {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.header-bottom-text {
+    width: 27%;
+    margin: 20px 0 26px 0;
+}
+
+.btn {
+    padding: 6px 9px 6px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.header-social {
+    text-transform: uppercase;
+    margin-top: 242px;
+    font-size: 14px;
+    color: #b7b7b7;
+    font-weight: lighter;
+}
